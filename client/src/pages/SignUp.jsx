@@ -53,7 +53,7 @@ const SignUp = () => {
             <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>Prs's</span>
             Blog
           </Link>
-          <p className="text-sm mt-5">This is a demo Blog project. With google Authentication.</p>
+          <p className="text-sm mt-5">This is a demo Blog project.</p>
         </div>
         {/* right */}
         <div className="flex-1">
@@ -93,7 +93,7 @@ const SignUp = () => {
                 </>
               ) : "Sign Up"}
             </Button>
-            <OAuth />
+            {/* <OAuth /> */}
           </form>
           <div className="flex gap-2 mt-5 text-sm">
             <span>Have an account?</span>
